@@ -1,3 +1,16 @@
+import 'package:flutter/material.dart';
+
+class nameScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Text('Hola Mundo'),
+      ),
+    );
+  }
+}
+/*
 Widget _bandTile(Band band) {
     return Dismissible(
       key: Key(band.id),
@@ -17,3 +30,4 @@ Widget _bandTile(Band band) {
         ),
       ),
       child: 
+      */
